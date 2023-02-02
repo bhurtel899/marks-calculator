@@ -13,6 +13,26 @@
     <div class="container intro text-center my-4">
         <h3 class="">Welcome to the marks calculator app</h3>
         <p>In this web app we will be helping you to calculate your marks your marks.</p>
+        <div class="calculation">
+            <form>
+                <div class="form-group">
+                  <label for="subject1">Maths :</label>
+                  <input type="number" id="subject1" name="subject1" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                  <label for="subject2">Science :</label>
+                  <input type="number" id="subject2" name="subject2" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                  <label for="subject3">English 1:</label>
+                  <input type="number" id="subject3" name="subject3" min="0" max="100" required>
+                </div>
+                <button type="submit">Calculate</button>
+              </form>
+              <div class="result">
+                <h2>Result: <span id="result">0</span>%</h2>
+        </div>
     </div>
+
 </body>
 </html>
